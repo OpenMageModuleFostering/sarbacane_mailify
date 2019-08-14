@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sarbacane_Mailify</name>
+    <version>1.0.0.9</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/academic.php">AFL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension synchronizes your e-shop Magento and the emailing solution software Mailify</summary>
+    <description>&lt;i&gt;With Mailify, easily create and send stunning newsletters to inform your community and increase customer loyalty.&lt;/i&gt;&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+&lt;h2&gt;Merchant Benefits&lt;/h2&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Easy : &lt;/b&gt;Simply create beautiful responsive newsletters thanks to the EmailBuilder&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Optimal deliverability : &lt;/b&gt;Your customers really receive your emails&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Advanced Features : &lt;/b&gt;Targeting, segmentation, Split test...&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Support : &lt;/b&gt;Technical support available to help you and many online resources: videos, tutorials, guides, tips, etc.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h2&gt;Features&lt;/h2&gt;&#xD;
+&#xD;
+&lt;p&gt;Mailify is a complete solution for emailing, &lt;b&gt;affordable for begginners and complete for experts.&lt;/b&gt;&lt;/p&gt;&#xD;
+&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Store data synchronized in real time, no need to export manually&lt;/li&gt;&#xD;
+&lt;li&gt;Hundreds of free responsive templates to use and customize in the new EmailBuilder. &lt;b&gt;You create your email in a few clicks ! &lt;/b&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;Deliverability optimized through our routing  platform known to all Internet service providers and Webmails.&lt;/li&gt;&#xD;
+&lt;li&gt;A / B testing, programmable emailing, 1-click preview in more than 20 email clients.&lt;/li&gt;&#xD;
+&lt;li&gt;Every element of your message is customizable with the data of your contact database: name, address, city, etc.&lt;/li&gt;&#xD;
+&lt;li&gt;Ability to target contacts according to their orders data for more effective campaigns&lt;/li&gt;&#xD;
+&lt;li&gt;Detailed statistics, geolocation, detection of openings, opening time, clicks, type of messaging, churn, incorrect addresses, etc.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;a href="https://www.mailify.com/?utm_source=magento&amp;amp;utm_medium=plugin&amp;amp;utm_campaign=marketplace"&gt;www.mailify.com&lt;/a&gt;&#xD;
+&lt;hr /&gt;&#xD;
+&#xD;
+&lt;i&gt;Con Mailify, Crea y env&#xED;a f&#xE1;cilmente newsletters magn&#xED;ficas para informar y fidelizar tus clientes.&lt;/i&gt;&#xD;
+&lt;br /&gt;&#xD;
+&lt;h2&gt;Cu&#xE1;les son las ventajas&lt;/h2&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Simplicidad :&lt;/b&gt; Crea f&#xE1;cilmente magn&#xED;ficas newsletters responsive gracias al EmailBuilder&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Entregabilidad &#xF3;ptima : &lt;/b&gt;Tus clientes reciben realmente tus emails&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Funcionalidades avanzadas : &lt;/b&gt;Personalizaci&#xF3;n, segmentaci&#xF3;n, split-test...&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;b&gt;Asistencia : &lt;/b&gt;Soporte t&#xE9;cnico a tu disposici&#xF3;n y numerosas fuentes en l&#xED;nea: v&#xED;deos, tutoriales, gu&#xED;as, consejos...&lt;/p&gt;&#xD;
+&#xD;
+&lt;h2&gt;Funcionalidades&lt;/h2&gt;&#xD;
+&#xD;
+&lt;p&gt;Mailify es la soluci&#xF3;n ideal para el emailing, &lt;b&gt;sencilla para los principiantes y completa para los expertos.&lt;/b&gt;&lt;/p&gt;&#xD;
+&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Datos de tiendas sincronizadas en tiempo real, sin la necesidad de exportar manualmente.&lt;/li&gt;&#xD;
+&lt;li&gt;Centenares de plantillas de newsletter responsive gratuitas para utilizar y personalizar con el EmailBuilder, editor gr&#xE1;fico de nueva generaci&#xF3;n. &lt;b&gt;&#xA1;Crea tu email en unos clics!&lt;/b&gt;&lt;/li&gt;&#xD;
+&lt;li&gt;Entregabilidad optimizada gracias a nuestra plataforma de enrutamiento reconocida entre el conjunto de proveedores de acceso a Internet y webmails.&lt;/li&gt;&#xD;
+&lt;li&gt;Pruebas A/B, env&#xED;os programables, vistas previas en m&#xE1;s de 20 mensajer&#xED;as con tal solo un clic.&lt;/li&gt;&#xD;
+&lt;li&gt;Cada elemento de tu mensaje se puede personalizar con las informaciones de tu base de datos: nombre, ciudad, g&#xE9;nero...&lt;/li&gt;&#xD;
+&lt;li&gt;Posibilidad de segmentar y aprovechar los contactos en funci&#xF3;n de los datos de sus pedidos para campa&#xF1;as m&#xE1;s eficaces.&lt;/li&gt;&#xD;
+&lt;li&gt;Estad&#xED;sticas detalladas, geolocalizaci&#xF3;n, detecci&#xF3;n de aperturas, tiempo de lectura, clics, tipo de mensajer&#xED;a, bajas, direcciones err&#xF3;neas...&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;a href="https://es.mailify.com/?utm_source=magento&amp;amp;utm_medium=plugin&amp;amp;utm_campaign=marketplace"&gt;es.mailify.com&lt;/a&gt;</description>
+    <notes>We improved performance on synchronization.&#xD;
+It should be more efficient and nearly instant on most websites.</notes>
+    <authors><author><name>Sarbacane Software</name><user>sarbacane</user><email>connectors@sarbacane.com</email></author></authors>
+    <date>2017-06-28</date>
+    <time>14:20:07</time>
+    <contents><target name="magecommunity"><dir name="Sarbacane"><dir name="Mailify"><dir name="Block"><dir name="Adminhtml"><file name="Mailify.php" hash="7499b4060c7f5fd5f45071a009140028"/></dir></dir><dir name="Helper"><file name="Data.php" hash="0ea9d66bc8fea25b4ae9416979aec1a1"/></dir><dir name="Model"><file name="Observer.php" hash="b1bd3dd3691a1f0ba54753eb1557de80"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="MailifyController.php" hash="366481e199d11a39b9ce0b9a002f79b8"/></dir><file name="IndexController.php" hash="663e5ad1a3708bbc1148221aad9c8ba8"/></dir><dir name="etc"><file name="config.xml" hash="2155e0eb71236a27d3681a761b6950be"/></dir><dir name="sql"><dir name="mailify_setup"><file name="mysql4-upgrade-1.0.0.7-1.0.0.8.php" hash="7532046acb50f9c3a44017fa431241bf"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><file name="mailify.css" hash="400ef58717993c05cac2b9d0f2d2b1dd"/><dir name="images"><file name="mailify.png" hash="2038d3c503e8f59d14177a131bef7537"/></dir><file name="mailify.js" hash="5a93eb4e4adf929a184e6db15eb6cd5f"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="mailify.xml" hash="2af03cc6e166f75310dfa5652a2f8e5e"/></dir><dir name="template"><dir name="mailify"><file name="mailify.phtml" hash="dffe12ecd656d8e72c1790e1b682edaf"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sarbacane_Mailify.xml" hash="544c3cadb5b2f404e51c80975beea392"/></dir></target><target name="magelocale"><dir name="es_ES"><file name="Sarbacane_Mailify.csv" hash="fcb2b869f1d2edac99fd57150d400701"/></dir><dir name="en_US"><file name="Sarbacane_Mailify.csv" hash="b915fbd09772c5cbb765b514b3891180"/></dir><dir name="de_DE"><file name="Sarbacane_Mailify.csv" hash="addfb3ceb1f5e9572d35de240b45454a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>8.0.0</max></php></required></dependencies>
+</package>

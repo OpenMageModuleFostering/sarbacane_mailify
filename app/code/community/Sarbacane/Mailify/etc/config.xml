@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    Sarbacane
+ * @package     Sarbacane_Mailify
+ * @author      Sarbacane Software <contact@sarbacane.com>
+ * @copyright   2015 Sarbacane Software
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Sarbacane_Mailify>
+            <version>1.0.0.8</version>
+        </Sarbacane_Mailify>
+    </modules>
+    <frontend>
+        <routers>
+            <mailify>
+                <use>standard</use>
+                <args>
+                    <module>Sarbacane_Mailify</module>
+                    <frontName>sarbacanedesktop</frontName>
+                </args>
+            </mailify>
+        </routers>
+    </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <mailify before="Mage_Adminhtml">Sarbacane_Mailify_Adminhtml</mailify>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <newsletter>
+                <children>
+                    <mailify module="mailify" translate="title">
+                        <title>Mailify</title>
+                        <sort_order>120</sort_order>
+                        <action>adminhtml/mailify</action>
+                    </mailify>
+                </children>
+            </newsletter>
+        </menu>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <newsletter>
+                            <children>
+                                <mailify translate="title">
+                                    <title>Mailify</title>
+                                    <sort_order>120</sort_order>
+                                </mailify>
+                            </children>
+                        </newsletter>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <mailify>
+                    <file>mailify.xml</file>
+                </mailify>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Sarbacane_Mailify>
+                    <files>
+                        <default>Sarbacane_Mailify.csv</default>
+                    </files>
+                </Sarbacane_Mailify>
+            </modules>
+        </translate>
+    </adminhtml>
+    <global>
+        <events>
+            <customer_save_before>
+                <observers>
+                    <mailify_customer_save>
+                        <class>Sarbacane_Mailify_Model_Observer</class>
+                        <method>customerSave</method>
+                    </mailify_customer_save>
+                </observers>
+            </customer_save_before>
+            <customer_delete_before>
+                <observers>
+                    <mailify_customer_delete>
+                        <class>Sarbacane_Mailify_Model_Observer</class>
+                        <method>customerDelete</method>
+                    </mailify_customer_delete>
+                </observers>
+            </customer_delete_before>
+            <newsletter_subscriber_save_before>
+                <observers>
+                    <mailify_newsletter_subscriber_save>
+                        <class>Sarbacane_Mailify_Model_Observer</class>
+                        <method>newsletterSubscriberSave</method>
+                    </mailify_newsletter_subscriber_save>
+                </observers>
+            </newsletter_subscriber_save_before>
+            <newsletter_subscriber_delete_before>
+                <observers>
+                    <mailify_newsletter_subscriber_delete>
+                        <class>Sarbacane_Mailify_Model_Observer</class>
+                        <method>newsletterSubscriberDelete</method>
+                    </mailify_newsletter_subscriber_delete>
+                </observers>
+            </newsletter_subscriber_delete_before>
+        </events>
+        <helpers>
+            <mailify>
+                <class>Sarbacane_Mailify_Helper</class>
+            </mailify>
+        </helpers>
+        <blocks>
+            <mailify>
+                <class>Sarbacane_Mailify_Block</class>
+            </mailify>
+        </blocks>
+        <resources>
+            <mailify_setup>
+                <setup>
+                    <module>Sarbacane_Mailify</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </mailify_setup>
+            <mailify_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </mailify_write>
+            <mailify_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </mailify_read>
+        </resources>
+    </global>
+</config>
